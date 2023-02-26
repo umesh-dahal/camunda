@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "text": "# ABSCHLUSS-URKUNDE",
+      "type": "text",
+      "id": "Field_0kat0rt"
+    },
+    {
+      "label": "Nachname des Korreferenten",
+      "type": "textfield",
+      "id": "Field_08fyvq5",
+      "key": "nachname_ext"
+    },
+    {
+      "label": "Vorname des Korreferenten",
+      "type": "textfield",
+      "id": "Field_164ypgv",
+      "key": "vorname_ext"
+    },
+    {
+      "label": "Geburtsdatum",
+      "type": "textfield",
+      "id": "Field_11gchto",
+      "key": "gebdatum_ext"
+    },
+    {
+      "label": "Geburtsort",
+      "type": "textfield",
+      "id": "Field_0lcyyin",
+      "key": "gebort_ext"
+    },
+    {
+      "label": "Abschluss Universität",
+      "type": "textfield",
+      "id": "Field_0ac8cty",
+      "key": "uni_ext"
+    },
+    {
+      "label": "Abschlussjahr",
+      "type": "textfield",
+      "id": "Field_1t06gei",
+      "key": "abschlussjahr_ext"
+    },
+    {
+      "label": "Art des Abschluss",
+      "type": "textfield",
+      "id": "Field_0nhnlxf",
+      "key": "artabschluss_Ext"
+    },
+    {
+      "label": "Studiengang",
+      "type": "textfield",
+      "id": "Field_0lkzs2f",
+      "key": "studiengang_ext"
+    }
+  ],
+  "type": "default",
+  "id": "abschluss",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.5.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

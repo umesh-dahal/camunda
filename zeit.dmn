@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="zeit" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.5.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.18.0">
+  <decision id="Decision_1brx41q" name="Decision 1">
+    <decisionTable id="DecisionTable_1aiamlg">
+      <input id="Input_1" biodi:width="228">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>artabschluss_stud</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="Dauer" typeRef="string" />
+      <rule id="DecisionRule_09tja72">
+        <description></description>
+        <inputEntry id="UnaryTests_07u3rxm">
+          <text>"Bachelor"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0s39xu3">
+          <text>"9 Wochen"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1iluj52">
+        <description></description>
+        <inputEntry id="UnaryTests_0232z59">
+          <text>"Master"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1aarlq4">
+          <text>"22 Wochen"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_1brx41q">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

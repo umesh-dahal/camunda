@@ -1,0 +1,60 @@
+{
+  "components": [
+    {
+      "text": "# Prüfungsleistung des Studenten",
+      "type": "text",
+      "id": "Field_05i57n9"
+    },
+    {
+      "label": "Nachname",
+      "type": "textfield",
+      "id": "Field_0slmk42",
+      "key": "nachname"
+    },
+    {
+      "label": "Vorname",
+      "type": "textfield",
+      "id": "Field_0myx9gh",
+      "key": "vorname"
+    },
+    {
+      "label": "Matrikel-Nummer",
+      "type": "textfield",
+      "id": "Field_0ha49z3",
+      "key": "matrikel"
+    },
+    {
+      "label": "Geburtsdatum",
+      "type": "textfield",
+      "id": "Field_1sjk379",
+      "key": "gebdatum"
+    },
+    {
+      "label": "Geburtsort",
+      "type": "textfield",
+      "id": "Field_1t7m4dk",
+      "key": "gebort"
+    },
+    {
+      "label": "Anschrift",
+      "type": "textfield",
+      "id": "Field_1qqdl9s",
+      "key": "field_0cgznir"
+    },
+    {
+      "label": "Bisherige Credits",
+      "type": "textfield",
+      "id": "Field_0f970j3",
+      "key": "credit"
+    }
+  ],
+  "type": "default",
+  "id": "leistung",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.5.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}
